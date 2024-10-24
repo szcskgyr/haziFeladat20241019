@@ -60,7 +60,14 @@ def feladat7():
 
 def feladat8():
     # 8. Írjuk ki a Fibonacci sorozat első 80 elemét
-    pass
+    m = 0
+    n = 1
+    fibonacci = 0
+    for i in range(80):
+        print(str(fibonacci))
+        fibonacci = m + n
+        m = n
+        n = fibonacci
 
 def feladat9():
     # 9. Írjuk ki a 10x10-es szorzótáblát
